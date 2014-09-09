@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Usuario {
 	
 	private String nome;
-	private int idade;
+	private Integer idade;
 	private String sexo;
 	private boolean isDj;
 	private String id;
@@ -39,10 +39,10 @@ public class Usuario {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public int getIdade() {
+	public Integer getIdade() {
 		return idade;
 	}
-	public void setIdade(int idade) {
+	public void setIdade(Integer idade) {
 		this.idade = idade;
 	}
 	public String getSexo() {

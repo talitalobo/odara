@@ -5,6 +5,7 @@ import com.example.model.Festa;
 import com.example.model.Musica;
 import com.example.model.Usuario;
 import com.example.util.FestaTabelaEnum;
+import com.example.util.UsuarioTabelaEnum;
 import com.parse.ParseObject;
 
 public class DAO implements DAOInterface {
@@ -48,7 +49,15 @@ public class DAO implements DAOInterface {
 
 	@Override
 	public void persitirUsuario(Usuario usuario) {
-		// TODO Auto-generated method stub
+		ParseObject objeto = null;
+		if(usuario!=null){
+			objeto = new ParseObject(UsuarioTabelaEnum.NOME_CLASSE.toString());
+			
+			if(usuario.getIdade()!=null){
+				objeto.put(UsuarioTabelaEnum.COLUNA_IDADE.toString(), usuario.getIdade());
+			}
+			
+		}
 		
 	}
 
