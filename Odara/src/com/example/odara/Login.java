@@ -13,7 +13,7 @@ public class Login extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.login);
+		setContentView(R.layout.login_fb);
 
 		/*new Handler().postDelayed(new Runnable() {
 			@Override

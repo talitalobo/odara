@@ -5,7 +5,6 @@
     android:layout_gravity="center"
     android:background="@drawable/background"
     android:orientation="vertical"
-<<<<<<< HEAD
     tools:context="com.example.odara.LoginActivity"
     tools:ignore="Overdraw" >
 
@@ -39,39 +38,5 @@
             android:background="@drawable/botao_login_completo" />
     </LinearLayout>
 
-=======
-    tools:context="com.example.odara.SplashActivity"
-    tools:ignore="Overdraw" >
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-        <ImageView
-            android:id="@+id/logo_splash"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/logo"
-            tools:ignore="ContentDescription" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="bottom|end" >
-    </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="150dp"
-        android:background="@drawable/botao_login_completo" />
-
->>>>>>> 552d37888b73c0c03d450de9eb7de98d1a2866a1
 </LinearLayout>
