@@ -5,37 +5,37 @@
     android:layout_gravity="center"
     android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context="com.example.odara.SplashActivity"
+    tools:context="com.example.odara.LoginActivity"
     tools:ignore="Overdraw" >
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_width="match_parent"
+   		android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/logo_splash"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:id="@+id/logo"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/logo"
-            tools:ignore="ContentDescription" />
-    </LinearLayout>
+            android:src="@drawable/logo" />
+   </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="bottom|end" >
+     <LinearLayout
+        android:layout_width="match_parent"
+   		android:layout_height="match_parent">
+			
+        
+        <ImageButton
+            android:id="@+id/botaoLogin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/botao_login_completo" />
     </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="150dp"
-        android:background="@drawable/botao_login_completo" />
 
 </LinearLayout>
