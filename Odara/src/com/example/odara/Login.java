@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class MainActivity extends ActionBarActivity {
+public class Login extends ActionBarActivity {
 
 	private static final int SPLASH_TIME_OUT = 2000;
 
@@ -13,15 +13,15 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.login);
 
-		new Handler().postDelayed(new Runnable() {
+		/*new Handler().postDelayed(new Runnable() {
 			@Override
 			public void run() {
-				final Intent i = new Intent(MainActivity.this, Login.class);
+				final Intent i = new Intent(Login.this, DEFINE_CLASS);
 				startActivity(i);
 				finish();
 			}
-		}, SPLASH_TIME_OUT);
+		}, SPLASH_TIME_OUT);*/
 	}
 }
